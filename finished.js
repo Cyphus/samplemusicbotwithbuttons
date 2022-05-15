@@ -1,4 +1,4 @@
-const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+const lib = require('lib')({token: <your_token>});
 const Player = require('../../../../../helper/player.js')
 const send = require('../../../../../tools/send.js')
 const { channel_id, guild_id }= context.params.event
